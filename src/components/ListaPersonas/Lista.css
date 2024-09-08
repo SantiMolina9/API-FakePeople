@@ -1,0 +1,11 @@
+.lista-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.persona-item {
+    list-style: none;
+    margin-bottom: 10px;
+}
