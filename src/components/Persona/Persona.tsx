@@ -14,6 +14,7 @@ const Persona: React.FC<Props> = ({persona}) => {
             fetch(`https://retoolapi.dev/5tTIpR/fakepeople/${persona.id}`)
             .then((response) => response.json())
             .then((data: Person) => {
+                console.log(per)
                 setPer(data)})
         }
     }, [info]);
